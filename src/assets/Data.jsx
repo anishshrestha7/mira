@@ -1,17 +1,3 @@
-export let products = [
-    { id: 1, title: "Classic Gloves", oldPrice: "50", price: "70", image: "../public/1.webp", area: "a" },
-    { id: 2, title: "Beige Tote", price: "70", image: "../public/2.webp", area: "b" },
-    { id: 3, title: "Beige Tote", oldPrice: "50", price: "60", image: "../public/3.webp", area: "c" },
-    { id: 4, title: "Classic Gloves", oldPrice: "50", price: "60", image: "../public/4.webp", area: "d" },
-    { id: 5, title: "Classic Gloves", price: "70", image: "../public/5.webp", area: "e" },
-    { id: 6, title: "Classic Gloves", oldPrice: "50", price: "60", image: "../public/6.webp", area: "f" },
-    { id: 7, title: "Classic Gloves", price: "50", image: "../public/7.webp", area: "g" },
-    { id: 8, title: "Classic Gloves", oldPrice: "50", price: "30", image: "../public/8.webp", area: "h" },
-    { id: 9, title: "Classic Gloves", price: "20", image: "../public/9.webp", area: "i" },
-    { id: 10, title: "Classic Gloves", price: "30", image: "../public/10.webp", area: "j" },
-    { id: 11, title: "Classic Gloves", oldPrice: "50", price: "90", image: "../public/11.webp", area: "k" },
-]
-
 export let blog = [
     { id: 1, date: "December 8, 2022", title: "Lorem Ipsum is simply dummy", button: "read more", image: "../public/blog1.webp" },
     { id: 2, date: "December 8, 2022", title: "Lorem Ipsum is simply dummy", button: "read more", image: "../public/blog2.webp" },

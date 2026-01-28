@@ -1,6 +1,4 @@
-import React from 'react'
-import { products } from '../Data'
-import Card from '../../Component/Card'
+import A  from '../A'
 import banner from '/banner.webp'
 import { blog } from '../Data' 
 import BlogCard from '../../Component/BlogCard';
@@ -13,21 +11,8 @@ function Home() {
           <h5 className='text-[30px] pb-16'>A Good looking, Comfortable Traditional Collection</h5>
           <button className='text-white font-medium duration-300 hover:opacity-100 uppercase text-xs bg-black py-4 px-6 mb-45 cursor-pointer hover:text-black hover:bg-[#f8f9fa] border hover:border-gray-400 ease-out transition-all rounded'>Shop The Collection</button>
         </div>
-     <section className=" con py-10">
-      <div className="grid grid-cols-4 gap-4 cursor-pointer
-        [grid-template-areas:'a_b_c_c'_'d_d_c_c'_'d_d_e_f'_'g_h_h_i'_'j_h_h_k']">
-      {products.map((item) => (
-       
-       <Card 
-          key={item.id} 
-          title={item.title} 
-          image={item.image} 
-          price={item.price} 
-          oldPrice={item.oldPrice} 
-          gridArea={item.area}
-        />
-      ))}
-    </div>
+     <section className="con py-10">
+         <A/>
       </section>
 
        <section className='con flex justify-center pb-14'>
